@@ -1,6 +1,6 @@
 
 document.addEventListener("keypress",function(event){
-    switch(event.key){
+    switch(event.key.toLowerCase()){
         case "w":
             wdrum();
             break;
